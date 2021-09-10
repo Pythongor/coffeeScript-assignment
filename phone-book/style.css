@@ -1,0 +1,140 @@
+body {
+  background-color: #ffe4cb;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#add {
+  position: relative;
+  height: 190px;
+  width: 150px;
+  background-color: #87d142;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.add__insertGroup {
+  width: 100px;
+  margin: 10px auto;
+}
+
+#nameGroup {
+  top: 15px;
+}
+
+#phoneGroup {
+  bottom: 20px;
+}
+
+.add__label {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.add__input {
+  display: block;
+  width: 100%;
+  background-color: #baff7a;
+  color: #632929;
+  border: 1px solid #3f5f22;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.add__error {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff1919;
+  width: 100%;
+  text-align: center;
+}
+
+.add__plus {
+  color: #3f5f22;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#users {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.users__card {
+  height: 150px;
+  width: 110px;
+  position: relative;
+  background-color: #ffab8a;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.users__text {
+  font-weight: 700;
+  color: #632929;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.users__input {
+  background-color: #ffea70;
+  color: #632929;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #632929;
+  border-radius: 5px;
+}
+
+.users__error {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff1919;
+  width: 100%;
+  text-align: center;
+}
+
+.users__buttons {
+  position: absolute;
+  bottom: 20px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.users__button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: #632929;
+}
+
+.users__button_edit {
+  background-color: #ffea70;
+}
+
+.users__button_delete {
+  background-color: #ff6022;
+}
+
+.users__button_apply {
+  background-color: #87d142;
+  color: #3f5f22;
+}
+
+.edit {
+  display: block;
+  width: 100px;
+}

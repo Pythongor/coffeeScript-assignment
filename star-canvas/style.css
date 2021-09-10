@@ -1,0 +1,18 @@
+body {
+  background-color: #cccccc;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  width: 600px;
+  background-color: #ffffff;
+}
+
+#input {
+  height: 600px;
+}
+
+#indicator {
+  height: 50px;
+}
